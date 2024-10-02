@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("HD(Prometey sizning ehtiyotkorligingizdan faxrlanar edi.)\n");
+    printf("HD{Prometey sizning ehtiyotkorligingizdan faxrlanar edi.}\n");
     return 0;
 }
 

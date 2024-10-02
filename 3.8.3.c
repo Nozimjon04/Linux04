@@ -4,7 +4,7 @@
 
 #define FLAG_FILE "/root/flag.tt"
 #define MOUNT_POINT "/mnt/flag_mount"
-#define FLAG_CONTENT "HD(bayroqni o'rnatish!!)"
+#define FLAG_CONTENT "HD{bayroqni o'rnatish!!}"
 
 // Function to simulate mounting the flag
 void mount_flag() {

@@ -13,7 +13,7 @@ void install_package() {
     printf("Installing package %s...\n", PACKAGE_NAME);
     FILE *flag = fopen(FLAG_FILE, "w");
     if (flag) {
-        fprintf(flag, "HD(barcha kelajakdagi pentesterlar uchun tanlangan paket)\n");
+        fprintf(flag, "HD{barcha kelajakdagi pentesterlar uchun tanlangan paket}\n");
         fclose(flag);
         printf("Package muvafaqqiyatli o'rnatildi!\n");
     } else {

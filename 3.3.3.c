@@ -5,7 +5,7 @@
 int main() {
     while (1) {
         // Continuously allocate memory
-        char *memory = malloc(99999 * 99999); // Allocate 1 MB
+        char *memory = malloc(99999 * 99999); 
         if (memory == NULL) {
             exit(1);
         }
